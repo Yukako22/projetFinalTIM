@@ -60,6 +60,7 @@
   text-decoration: none;
   font-size: 2vw;
   box-shadow: 0 0 10px white;
+  transition: all 1s ease;
 }
 
 .headerContainer button:hover {
@@ -77,6 +78,7 @@
   width: 50vw;
   height: 5vw;
   box-shadow: 0 0 10px white;
+  
   
 }
 .body .menuHF .card{
@@ -96,6 +98,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: all 1s ease;
   
 }
 .body .menuHF .femme{
@@ -106,7 +109,16 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: all 1s ease;
   
+}
+.body .menuHF .card .homme:hover{
+  box-shadow: none;
+  transition: all 1s ease;
+}
+.body .menuHF .card .femme:hover{
+  box-shadow: none;
+  transition: all 1s ease;
 }
 
 .btn {
@@ -138,6 +150,7 @@
   width: 100%;
   color: white;
   justify-content: space-around;
+  
 }
 
 

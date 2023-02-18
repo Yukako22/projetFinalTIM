@@ -12,7 +12,7 @@
     margin-top: 50px;
     padding: 30px 150px;
     border: solid 2px white;
-    box-shadow: 0 0 10px white;
+    animation: bordure 2s linear 2s infinite alternate;
   }
   .bodyProg h2{
     display: flex;
@@ -57,4 +57,11 @@
   .programme {
     grid-template-columns: 1fr;
   }
+}
+
+@keyframes bordure {
+  0%   {box-shadow: 0 0 10px white;}
+  
+  
+  100% {box-shadow: 0 0 10px rgba(255, 255, 255, 0);}
 }
