@@ -19,7 +19,7 @@ function Navbar() {
           <Link to="/homme"> Homme </Link>
           <Link to="/femme"> Femme </Link>
           <Link to="/about"> Moi </Link>
-          <Link to="/contact"> Contact </Link>
+          <Link to="/programme"> Programmes </Link>
           <Link to="/shopping"> <GiShoppingBag /> </Link>
         </div>
       </div>
@@ -28,7 +28,8 @@ function Navbar() {
         <Link to="/homme"> Homme </Link>
         <Link to="/femme"> Femme </Link>
         <Link to="/about"> Moi </Link>
-        <Link to="/contact"> Contact </Link>
+        <Link to="/programme"> Programmes </Link>
+        
         
         <button onClick={toggleNavbar}>
           

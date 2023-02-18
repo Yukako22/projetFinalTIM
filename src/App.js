@@ -5,7 +5,8 @@ import Home from "./pages/Home";
 import Homme from "./pages/Homme";
 import Femme from "./pages/Femme";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
+import Programmes from "./pages/Programme";
+
 import Shopping from "./pages/Shopping";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -20,7 +21,7 @@ function App() {
           <Route path="/homme" element={<Homme/>} />
           <Route path="/femme" element={<Femme/>} />
           <Route path="/about" element={<About/>} />
-          <Route path="/contact" element={<Contact/>} />
+          <Route path="/programme" element={<Programmes/>} />
           <Route path="/shopping" element={<Shopping/>} />
         </Routes>
         <Footer />

@@ -5,12 +5,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #121619;
+  background-color: #000000;
+  color: white;
 }
-.menu .menuTitle {
-  font-family: cursive;
-  font-size: 60px;
-}
+
 
 .menuList {
   width: 70vw;
@@ -22,21 +20,21 @@
 
 /* MENU ITEM STYLING */
 
-.menuItem {
-  border-radius: 15px;
-  width: 300px;
-  height: 350px;
+.Item {
+  border-top-right-radius: 15px;
+  width: 30vw;
+  border: solid 1px rgba(255, 255, 255, 0.185);
   margin: 20px;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.2);
 }
-.menuItem:hover {
+.Item:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in;
   cursor: pointer;
 }
 
-.menuItem div {
-  border-top-left-radius: 15px;
+.Item div {
+  
   border-top-right-radius: 15px;
   width: 100%;
   height: 200px;
@@ -44,9 +42,26 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.Item .btnProduit{
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  margin: 10px 1rem;
+  display: flex;
+  bottom: 0%;
+}
+.btnProduit:hover {
+  background-color: #707070;
+  
+}
 
-.menuItem h1,
-.menuItem p {
+
+.Item h1,
+.Item p {
   margin-left: 20px;
 }
 

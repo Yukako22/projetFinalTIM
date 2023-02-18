@@ -4,13 +4,16 @@ import { ListProgFemme } from "../helpers/Femme";
 
 import ProduitItem from "../components/Item";
 import "../styles/Produit.css";
+import "../styles/Programme.css";
 
 function Programme() {
   return (
-    <div className="menu">
-      <h1 className="menuTitle">Programmes</h1>
-      <div className="menuList">
-        <div className="programmeHomme">
+    <div className="bodyProg">
+      <h1 className="progTitle">Programmes</h1>
+      <div className="programme">
+      <h2>Hommes</h2>
+        <div className="programmesHomme">
+          
         {ListProgHomme.map((Item, key) => {
           return (
             <ProduitItem
@@ -22,7 +25,9 @@ function Programme() {
           );
         })}
         </div>
-        <div className="programmeHomme">
+        <h2>Femmes</h2>
+        <div className="programmesFemme">
+        
         {ListProgFemme.map((Item, key) => {
           return (
             <ProduitItem
@@ -35,9 +40,7 @@ function Programme() {
         })}
         </div>
       </div>
-      <button className='btn' >
-            Ajouter
-          </button>
+      
     </div>
   );
 }
