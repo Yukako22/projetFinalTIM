@@ -47,6 +47,7 @@ function Home() {
               key={key}
               image={Item.image}
               name={Item.name}
+              desc={Item.desc}
               price={Item.price}
             />
           );
@@ -55,7 +56,7 @@ function Home() {
       </div>
       </div>
       
-      
+      <a className="top" href="#top">Retour en haut</a>
     </div>
     
   );

@@ -20,6 +20,7 @@ function Programme() {
               key={key}
               image={Item.image}
               name={Item.name}
+              desc={Item.desc}
               price={Item.price}
             />
           );
@@ -34,13 +35,14 @@ function Programme() {
               key={key}
               image={Item.image}
               name={Item.name}
+              desc={Item.desc}
               price={Item.price}
             />
           );
         })}
         </div>
       </div>
-      
+      <a className="top" href="#top">Retour en haut</a>
     </div>
   );
 }

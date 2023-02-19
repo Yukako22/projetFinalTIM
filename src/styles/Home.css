@@ -1,3 +1,7 @@
+.top{
+  color: white;
+  
+}
 .body{
   background-color: #121619;
 }
@@ -201,7 +205,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #121619;
+    background-color: #1216199d;
     color: white;
   }
 
@@ -219,5 +223,50 @@
   .headerContainer button:hover {
     background-color: rgb(225, 225, 225);
     color: #121619;
+  }
+  .body .menuHF .titre h2 {
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vw;
+    box-shadow: 0 0 10px white;
+    
+    
+  }
+  .body .menuHF .card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    
+  }
+  .body .menuHF .card .homme{
+    width: 80vw;
+    height: 40vw;
+    
+    
+  }
+  .body .menuHF .femme{
+    width: 80vw;
+    height: 40vw;
+    
+    
+  }
+  .cardProduit{
+    display: flex;
+    width: 100%;
+    color: white;
+    justify-content: space-around;
+    flex-direction: column;
+    
+  }
+  .cardProduit .Item{
+    width: 90vw;
   }
 }

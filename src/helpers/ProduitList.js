@@ -37,3 +37,67 @@ export const ProduitList = [
   },
   
 ];
+export const ProduitCardHomme = [
+  {
+    name: "Équipement",
+    image: Produit1,
+    desc: "grdgjdrgh rnj nrgiuj rndgvuij nrgj ndrguij ndrgjuirdn gjdrng idrngjdr gndrjgnredigbirdbg",
+    price: 15.99,
+  },
+  {
+    name: "Supplément",
+    image: Produit2,
+    desc: "grdgjdrgh rnj nrgiuj rndgvuij nrgj ndrguij ndrgjuirdn gjdrng idrngjdr gndrjgnredigbirdbg",
+    price: 11.99,
+  },
+  {
+    name: "Étirement",
+    image: Produit3,
+    desc: "grdgjdrgh rnj nrgiuj rndgvuij nrgj ndrguij ndrgjuirdn gjdrng idrngjdr gndrjgnredigbirdbg",
+    price: 256.53,
+  },
+  {
+    name: "Masse",
+    image: Produit4,
+    desc: "grdgjdrgh rnj nrgiuj rndgvuij nrgj ndrguij ndrgjuirdn gjdrng idrngjdr gndrjgnredigbirdbg",
+    price: 17.99,
+  },
+  {
+    name: "Sèche",
+    image: Produit5,
+    price: 4.99,
+  },
+  
+];
+export const ProduitCardFemme = [
+  {
+    name: "Équipement",
+    image: Produit1,
+    desc: "grdgjdrgh rnj nrgiuj rndgvuij nrgj ndrguij ndrgjuirdn gjdrng idrngjdr gndrjgnredigbirdbg",
+    price: 15.99,
+  },
+  {
+    name: "Supplément",
+    image: Produit2,
+    desc: "grdgjdrgh rnj nrgiuj rndgvuij nrgj ndrguij ndrgjuirdn gjdrng idrngjdr gndrjgnredigbirdbg",
+    price: 11.99,
+  },
+  {
+    name: "Étirement",
+    image: Produit3,
+    desc: "grdgjdrgh rnj nrgiuj rndgvuij nrgj ndrguij ndrgjuirdn gjdrng idrngjdr gndrjgnredigbirdbg",
+    price: 256.53,
+  },
+  {
+    name: "Masse",
+    image: Produit4,
+    desc: "grdgjdrgh rnj nrgiuj rndgvuij nrgj ndrguij ndrgjuirdn gjdrng idrngjdr gndrjgnredigbirdbg",
+    price: 17.99,
+  },
+  {
+    name: "Sèche",
+    image: Produit5,
+    price: 4.99,
+  },
+  
+];

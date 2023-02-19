@@ -13,15 +13,9 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="leftSide" id={openLinks ? "open" : "close"}>
-        <img src={Logo} />
-        <div className="hiddenLinks">
-          <Link to="/"> Accueil </Link>
-          <Link to="/homme"> Homme </Link>
-          <Link to="/femme"> Femme </Link>
-          <Link to="/about"> Moi </Link>
-          <Link to="/programme"> Programmes </Link>
-          <Link to="/shopping"> <GiShoppingBag /> </Link>
-        </div>
+      
+      <img src={Logo} />
+        
       </div>
       <div className="rightSide">
         <Link to="/"> Accueil </Link>
@@ -31,9 +25,9 @@ function Navbar() {
         <Link to="/programme"> Programmes </Link>
         
         
-        <button onClick={toggleNavbar}>
+        
           
-        </button>
+        
       </div>
       <div className="shopping">
         
