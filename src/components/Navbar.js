@@ -31,7 +31,7 @@ function Navbar() {
       </div>
       <div className="shopping">
         
-        <Link to="/shopping"> <GiShoppingBag /> </Link>
+        <Link to="/cart"> <GiShoppingBag /> </Link>
         
           
         

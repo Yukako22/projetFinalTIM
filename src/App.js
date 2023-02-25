@@ -7,13 +7,15 @@ import Femme from "./pages/Femme";
 import About from "./pages/About";
 import Programmes from "./pages/Programme";
 
-import Shopping from "./pages/Shopping";
+
+import Shopping from "./pages/Cart";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 
 function App() {
   return (
     <div className="App">
+      
       <Router>
         <Navbar />
         <Routes>
@@ -22,10 +24,11 @@ function App() {
           <Route path="/femme" element={<Femme/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/programme" element={<Programmes/>} />
-          <Route path="/shopping" element={<Shopping/>} />
+          <Route path="/cart" element={<Shopping/>} />
         </Routes>
         <Footer />
       </Router>
+      
     </div>
   );
 }

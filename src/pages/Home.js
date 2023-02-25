@@ -6,12 +6,13 @@ import MenuFemmeImg from "../assets/femme.jpg";
 import Logo from "../assets/Logo.png";
 import "../styles/Home.css";
 //import Produit from '../components/Produit';
-import ProduitItem from "../components/Item";
+import Item from "../components/Item";
 import { ProduitList } from "../helpers/ProduitList";
 
-
-
 function Home() {
+  
+  
+
   return (
     <div className="body">
       <div className="home" style={{ backgroundImage: `url(${BannerImage})` }}>
@@ -20,7 +21,7 @@ function Home() {
           <h1>Service d'entrainement pour un futur viking</h1>
           
         <Link to="/programme">
-          <button> Rejoins moi ! </button>
+          <button > Rejoins moi !  </button>
         </Link>
       </div>
       
@@ -41,14 +42,13 @@ function Home() {
           <div className="titre"><h2>Il faut aussi muscler son cerveau</h2></div>   
           <div className="cardProduit">
       
-      {ProduitList.map((Item, key) => {
+      {ProduitList.map((item) => {
+        
           return (
-            <ProduitItem
-              key={key}
-              image={Item.image}
-              name={Item.name}
-              desc={Item.desc}
-              price={Item.price}
+            <Item 
+            key={item.id} item={item} 
+              
+              
             />
           );
         })}

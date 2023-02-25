@@ -2,7 +2,7 @@ import React from "react";
 import { ListProgHomme } from "../helpers/Femme";
 import { ListProgFemme } from "../helpers/Femme";
 
-import ProduitItem from "../components/Item";
+import Item from "../components/Item";
 import "../styles/Produit.css";
 import "../styles/Programme.css";
 
@@ -14,14 +14,10 @@ function Programme() {
       <h2>Hommes</h2>
         <div className="programmesHomme">
           
-        {ListProgHomme.map((Item, key) => {
+        {ListProgHomme.map((item) => {
           return (
-            <ProduitItem
-              key={key}
-              image={Item.image}
-              name={Item.name}
-              desc={Item.desc}
-              price={Item.price}
+            <Item
+            key={item.id} item={item} 
             />
           );
         })}
@@ -29,14 +25,10 @@ function Programme() {
         <h2>Femmes</h2>
         <div className="programmesFemme">
         
-        {ListProgFemme.map((Item, key) => {
+        {ListProgFemme.map((item) => {
           return (
-            <ProduitItem
-              key={key}
-              image={Item.image}
-              name={Item.name}
-              desc={Item.desc}
-              price={Item.price}
+            <Item
+            key={item.id} item={item} 
             />
           );
         })}

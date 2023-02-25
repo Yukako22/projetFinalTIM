@@ -6,31 +6,36 @@ import Produit5 from "../assets/belly-2354_1920.jpg";
 
 
 export const ProduitList = [
-  {
+  { 
+    id:1,
     name: "Équipement",
     image: Produit1,
     desc: "grdgjdrgh rnj nrgiuj rndgvuij nrgj ndrguij ndrgjuirdn gjdrng idrngjdr gndrjgnredigbirdbg",
     price: 15.99,
   },
   {
+    id:2,
     name: "Supplément",
     image: Produit2,
     desc: "grdgjdrgh rnj nrgiuj rndgvuij nrgj ndrguij ndrgjuirdn gjdrng idrngjdr gndrjgnredigbirdbg",
     price: 11.99,
   },
   {
+    id:3,
     name: "Étirement",
     image: Produit3,
     desc: "grdgjdrgh rnj nrgiuj rndgvuij nrgj ndrguij ndrgjuirdn gjdrng idrngjdr gndrjgnredigbirdbg",
     price: 256.53,
   },
   {
+    id:4,
     name: "Masse",
     image: Produit4,
     desc: "grdgjdrgh rnj nrgiuj rndgvuij nrgj ndrguij ndrgjuirdn gjdrng idrngjdr gndrjgnredigbirdbg",
     price: 17.99,
   },
   {
+    id:5,
     name: "Sèche",
     image: Produit5,
     price: 4.99,
