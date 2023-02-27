@@ -1,10 +1,13 @@
 import React from "react";
-import { ListProgHomme } from "../helpers/Femme";
-import { ListProgFemme } from "../helpers/Femme";
+import { ListProgHomme } from "../helpers/PlanEntrainement";
+import { ListProgFemme } from "../helpers/PlanEntrainement";
 
 import Item from "../components/Item";
 import "../styles/Produit.css";
 import "../styles/Programme.css";
+
+//CEtte pages est celle de la pages pour les plans d'entrainement pré-fait
+//Elle appel aussi le tableau du components Liste programmes en utilisant le component de item
 
 function Programme() {
   return (

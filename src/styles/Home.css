@@ -1,0 +1,272 @@
+.top{
+  color: white;
+  
+}
+.body{
+  background-color: #121619;
+}
+.home {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  justify-content: space-between;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  
+}
+
+.headerContainer {
+  width: auto;
+  margin-left: 50px;
+}
+
+
+.headerContainer h1 {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 5rem;
+  width: fit-content;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  
+}
+.headerContainer img {
+  margin-top: 5vw;
+  width: 30vw;
+  height: 10vw;
+}
+
+.headerContainer p {
+  padding: 0;
+  font-size: 2.5vw;
+  font-weight: lighter;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.headerContainer button {
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: #121619ad;
+  height: 5vw;
+  width: 25vw;
+  color: white;
+  text-decoration: none;
+  font-size: 2vw;
+  box-shadow: 0 0 10px white;
+  transition: all 1s ease;
+}
+
+.headerContainer button:hover {
+  background-color: #07090a;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+.body .menuHF .titre h2 {
+  margin-top: 70px;
+  background-color: black;
+  color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 5vw;
+  box-shadow: 0 0 10px white;
+  
+  
+}
+.body .menuHF .card{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  
+}
+
+.body .menuHF .card .homme{
+  width: 30vw;
+  height: 20vw;
+  display: flex;
+  box-shadow: 0 0 10px white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s ease;
+  
+}
+.body .menuHF .femme{
+  width: 30vw;
+  height: 20vw;
+  display: flex;
+  box-shadow: 0 0 10px white;
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s ease;
+  
+}
+.body .menuHF .card .homme:hover{
+  box-shadow: none;
+  transition: all 1s ease;
+}
+.body .menuHF .card .femme:hover{
+  box-shadow: none;
+  transition: all 1s ease;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  margin: 0 1rem;
+}
+
+.btn:hover {
+  background-color: #707070;
+  
+}
+
+.btn--alt {
+  background-color: transparent;
+  color: #f8f8f8;
+}
+
+.btn--alt:hover {
+  background-color: #5e5d5d;
+}
+.cardProduit{
+  display: flex;
+  width: 100%;
+  color: white;
+  justify-content: space-around;
+  
+}
+
+
+
+
+
+
+.cardModal:hover{
+  cursor: pointer;
+  
+}
+.cardText{
+  background-color: #4d4d4d00;
+  color: #ffffff00;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardText:hover{
+  transition: all .5s ease;
+  background-color: #4d4d4d60;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 650px) {
+  .home {
+    justify-content: center;
+    align-items: center;
+  }
+  .headerContainer h1,
+  .headerContainer p {
+  }
+
+  .headerContainer {
+    margin-left: 0px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1216199d;
+    color: white;
+  }
+
+  .headerContainer p {
+    font-size: 30px;
+    color: white;
+  }
+
+  .headerContainer button {
+    background-color: white;
+    color: #121619;
+    margin-bottom: 30px;
+  }
+
+  .headerContainer button:hover {
+    background-color: rgb(225, 225, 225);
+    color: #121619;
+  }
+  .body .menuHF .titre h2 {
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vw;
+    box-shadow: 0 0 10px white;
+    
+    
+  }
+  .body .menuHF .card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    
+  }
+  .body .menuHF .card .homme{
+    width: 80vw;
+    height: 40vw;
+    
+    
+  }
+  .body .menuHF .femme{
+    width: 80vw;
+    height: 40vw;
+    
+    
+  }
+  .cardProduit{
+    display: flex;
+    width: 100%;
+    color: white;
+    justify-content: space-around;
+    flex-direction: column;
+    
+  }
+  .cardProduit .Item{
+    width: 90vw;
+  }
+}

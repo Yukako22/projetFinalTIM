@@ -1,5 +1,7 @@
-import { useState } from 'react';
 import {cart} from '../helpers/CartList'
+import "../styles/Cart.css";
+//Fonction pour la création du panier d'achat.
+//Cette fonction permet d'ajouter ou d'enlever divers éléments de la page d'achat.
 
 export default function CartComponent(props){
     

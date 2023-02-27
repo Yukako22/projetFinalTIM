@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import BannerImage from "../assets/accueilBanner.jpg";
-import MenuHommeImg from "../assets/homme.jpg";
+import MenuHommeImg from "../assets/hommeviking.jpg";
 import MenuFemmeImg from "../assets/femme.jpg";
+import MenuHommeImg2 from "../assets/homme.jpg";
+import MenuFemmeImg2 from "../assets/femmeSans.jpg";
 import Logo from "../assets/Logo.png";
 import "../styles/Home.css";
 //import Produit from '../components/Produit';
@@ -36,8 +38,8 @@ function Home() {
       <div className="menuHF">
       <div className="titre"><h2>Deviens fort meme sans materiel</h2></div>
           <div className="card" >
-          <Link to="/Homme"><div className="homme"style={{ backgroundImage: `url(${MenuHommeImg})` }}></div></Link>
-          <Link to="/Femme"><div className="femme" style={{ backgroundImage: `url(${MenuFemmeImg})` }}></div></Link>
+          <Link to="/Homme"><div className="homme"style={{ backgroundImage: `url(${MenuHommeImg2})` }}></div></Link>
+          <Link to="/Femme"><div className="femme" style={{ backgroundImage: `url(${MenuFemmeImg2})` }}></div></Link>
           </div>    
           <div className="titre"><h2>Il faut aussi muscler son cerveau</h2></div>   
           <div className="cardProduit">

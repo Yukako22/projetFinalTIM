@@ -1,18 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import Logo from "../assets/Logo.png";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
 import { GiShoppingBag } from 'react-icons/gi';
 
-function Navbar() {
-  const [openLinks, setOpenLinks] = useState(false);
+//Fonction qui affiche les éléments de la barre de navigation (header)
 
-  const toggleNavbar = () => {
-    setOpenLinks(!openLinks);
-  };
+function Navbar() {
+  
+  
   return (
     <div className="navbar">
-      <div className="leftSide" id={openLinks ? "open" : "close"}>
+      <div className="leftSide" >
       
       <img src={Logo} />
         

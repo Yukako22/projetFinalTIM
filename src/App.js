@@ -9,7 +9,7 @@ import Programmes from "./pages/Programme";
 
 
 import Shopping from "./pages/Cart";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; //Syteme de route pour naviguer entre les differentes pages sans rafraichissement.
 
 
 function App() {
@@ -30,6 +30,7 @@ function App() {
       </Router>
       
     </div>
+    
   );
 }
 

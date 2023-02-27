@@ -1,0 +1,92 @@
+.shoppingBody{
+    background-color: #121619e8;
+}
+
+img{
+    width: 15vw;
+    height: 100%;
+    
+    
+}
+.shopCard{
+    display: flex;
+    width: 90vw;
+    height: 250px;
+    margin: 50px 100px;
+    background-color: rgba(0, 0, 0, 0.747);
+    justify-content: space-between;
+    box-shadow: 0 0 10px white;
+    
+}
+.shopCard p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    background-color: transparent;
+}
+.shopCard button {
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #121619ad;
+    margin: 15px 15px;
+    height: 80%;
+    width: 15vw;
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+    box-shadow: 0 0 10px white;
+    transition: all 1s ease;
+}
+.shopCard button:hover {
+    border-radius: 0px;
+    font-size: 2.2vw;
+    box-shadow: 0 0 5px white;
+    
+}
+.shoppingBody .objetPanier {
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 5vw;
+    box-shadow: 0 0 10px white;
+    font-size: 2rem;
+    
+}
+@media only screen and (max-width: 650px) {
+    .shopCard{
+        margin: 50px 10px;
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        
+    }
+    .shopCard p {
+        font-size: 1rem;
+        border-bottom: 1px solid white;
+        margin: 10px 100px ;
+        
+    }
+    img{
+        width: 100%;
+        height: 50%;
+        
+        
+    }
+    .shopCard button {
+        width: 90%;
+    }
+    .shoppingBody .objetPanier{
+        width: 100%;
+        height: 20vw;
+        font-size: 1.5rem;
+    }
+  }
