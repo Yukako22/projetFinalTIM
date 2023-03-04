@@ -1,26 +1,18 @@
 .about {
   width: 100%;
-  height: 90vh;
+  height: 90%;
   display: flex;
   flex-direction: column;
   background-color: #121619;
 }
 
-.aboutTop {
-  width: 100%;
-  height: 45%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
 .aboutBottom {
   display: flex;
   flex-direction: column;
-  height: 55%;
+  height: 70%;
   align-items: center;
-  margin-top: 50px;
+  margin: 50px;
+  padding-bottom: 150px;
 }
 
 .aboutBottom p {
@@ -33,10 +25,24 @@
 
 .about .aboutBottom h1 {
   font-weight: 400;
-  font-size: 70px;
+  font-size: 7vw;
   color: rgb(255, 255, 255);
   height: 30px;
   display: flex;
   justify-content: center;
   transform: translateY(-40px);
+}
+@media only screen and (max-width: 650px) {
+  .aboutBottom p {
+    width: 70vw;
+    color: white;
+    background-color: #363f4696;
+    padding: 50px;
+    box-shadow: 0 0 10px white;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .aboutBottom p {
+    width: 50vw;
+  }
 }

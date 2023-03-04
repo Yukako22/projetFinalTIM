@@ -1,18 +1,30 @@
-.body{
-    
+/* Cette page de CSS stylise la page homme et femme. */
+
+.page {
+  background-color: #121619;
 }
-.body .profilBulle{
-    margin-top: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
+.page .body {
+  display: flex;
+  justify-content: space-around;
 }
-.body .profilBulle .bulle{
-    width: 25vw;
+.bodyHomme {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.body .bodyHomme .profilBulle {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.body .bodyHomme .profilBulle .bulle {
+  width: 25vw;
   height: 35vw;
   display: flex;
-  justify-content:center ;
+
+  justify-content: center;
   align-items: center;
   border-radius: 50%;
   background-position: center;
@@ -20,8 +32,8 @@
   background-size: cover;
   transition: all 1s ease;
 }
-.body .profilBulle .bulle:hover{
-    width: 25vw;
+.body .profilBulle .bulle:hover {
+  width: 25vw;
   height: 35vw;
   display: flex;
   border-radius: 50%;
@@ -30,92 +42,105 @@
   background-size: cover;
   transition: all 1s ease;
   cursor: pointer;
-  box-shadow:  0 0 10px white;
+  box-shadow: 0 0 10px white;
   opacity: 70%;
 }
-.bulle .btn-Prog{
+
+.bulle .btn-Prog {
   border: none;
   cursor: pointer;
   background-color: transparent;
-    height:35vw;
-    width: 25vw;
+  height: 35vw;
+  width: 25vw;
   color: rgba(255, 255, 255, 0);
   text-decoration: none;
   font-size: 1.5vw;
   transition: all 1s ease;
 }
-.btn-Prog:hover{
-    cursor: pointer;
-    color: rgb(255, 255, 255);
-    font-size: 2vw;
-    transition: all 1s ease;
+.btn-Prog:hover {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-size: 2vw;
+  transition: all 1s ease;
 }
-.body h2 {
-    margin-top: 70px;
-    background-color: black;
-    color: white;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width: 50vw;
-    height: 5vw;
-    box-shadow: 0 0 10px white;
-    font-size: 2vw;
-  }
-  .sousTitreBulle{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 150px;
-  }
-  h3 {
-    margin-top: 70px;
-    background-color: black;
-    color: white;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width: 20vw;
-    height: 5vw;
-    box-shadow: 0 0 10px white;
-    
-  }
+.page h2 {
+  margin-top: 70px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 5vw;
+  box-shadow: 0 0 10px white;
+  font-size: 2vw;
+}
+.sousTitreBulle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 150px;
+}
+h3 {
+  margin-top: 70px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 5vw;
+  box-shadow: 0 0 10px white;
+}
 
-  .contenuProgramme{
-display: flex;justify-content: space-between;align-items: center;flex-direction: row;  
+.contenuProgramme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
 }
-.Item{
-    height: 500px;
-    color: white;
+.Item {
+  height: 600px;
+  color: white;
 }
 
 @media only screen and (max-width: 650px) {
-  .body h2{
+  .body h2 {
     width: 100%;
     height: 15vw;
     font-size: 3.5vw;
   }
-  .body h3{
+  .body h3 {
     width: 20vw;
     height: 10vw;
     font-size: 3.5vw;
   }
-  .body .profilBulle .bulle{
-    
-  box-shadow:  0 0 10px white;
-  opacity: 80%;
-}
-.body .btn-Prog{
-  
-  color: rgb(255, 255, 255);
-  font-size: 3vw;
-  
-}
-.contenuProgramme{
-  display: flex;justify-content: space-between;align-items: center;flex-direction: column;  
+  .body .profilBulle .bulle {
+    box-shadow: 0 0 10px white;
+    opacity: 80%;
   }
-  .contenuProgramme .Item{
+  .body .btn-Prog {
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+  }
+  .contenuProgramme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contenuProgramme .Item {
     width: 90%;
   }
-
+}
+@media only screen and (max-width: 1200px) {
+  .contenuProgramme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contenuProgramme .Item {
+    width: 70%;
+  }
 }
