@@ -44,21 +44,25 @@ export const ProduitList = [
 ];
 export const ProduitCardHomme = [
   {
+    id: 7,
     name: "Programmes",
     image: Produit6,
     desc: "Chaque séance d'entraînement est personnalisée en fonction de vos besoins et de vos objectifs individuels. Nous travaillons en étroite collaboration avec vous pour créer un plan d'entraînement qui est adapté à votre niveau de fitness actuel et qui vous permettra de progresser à votre rythme.",
   },
   {
+    id: 8,
     name: "Suppléments",
     image: Produit2,
     desc: "Les compléments alimentaires peuvent être utilisés pour combler les carences nutritionnelles, améliorer la performance physique, stimuler la récupération après l'exercice, favoriser la croissance musculaire, renforcer le système immunitaire et aider à maintenir un état de santé optimal.",
   },
   {
+    id: 9,
     name: "Alimentation",
     image: Produit4,
     desc: "L'alimentation saine est cruciale pour maintenir une bonne santé physique et mentale. Elle fournit à notre corps les nutriments essentiels dont il a besoin pour fonctionner correctement, renforcer notre système immunitaire, maintenir un poids santé et réduire le risque de maladies chroniques telles que le diabète, les maladies cardiaques et le cancer.",
   },
   {
+    id: 10,
     name: "Soutient",
     image: Produit5,
     desc: "Un soutient en tout temps par un groupe privée.",
@@ -66,21 +70,25 @@ export const ProduitCardHomme = [
 ];
 export const ProduitCardFemme = [
   {
+    id: 11,
     name: "Programmes",
     image: Produit6,
     desc: "Chaque séance d'entraînement est personnalisée en fonction de vos besoins et de vos objectifs individuels. Nous travaillons en étroite collaboration avec vous pour créer un plan d'entraînement qui est adapté à votre niveau de fitness actuel et qui vous permettra de progresser à votre rythme.",
   },
   {
+    id: 12,
     name: "Suppléments",
     image: Produit2,
     desc: "Les compléments alimentaires peuvent être utilisés pour combler les carences nutritionnelles, améliorer la performance physique, stimuler la récupération après l'exercice, favoriser la croissance musculaire, renforcer le système immunitaire et aider à maintenir un état de santé optimal.",
   },
   {
+    id: 13,
     name: "Alimentation",
     image: Produit4,
     desc: "L'alimentation saine est cruciale pour maintenir une bonne santé physique et mentale. Elle fournit à notre corps les nutriments essentiels dont il a besoin pour fonctionner correctement, renforcer notre système immunitaire, maintenir un poids santé et réduire le risque de maladies chroniques telles que le diabète, les maladies cardiaques et le cancer.",
   },
   {
+    id: 14,
     name: "Soutient",
     image: Produit5,
     desc: "Un soutient en tout temps par un groupe privé.",
